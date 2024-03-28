@@ -4,6 +4,5 @@ Quero ressaltar que este projeto não tem fins lucrativos e não busca infringir
 Caso você seja um dos criadores ou detentores dos direitos autorais de qualquer material presente neste site e deseje que seja removido ou atribuído de forma diferente, por favor, entre em contato. Estarei felizes em tomar as medidas adequadas.
 Agradeço a todos pela visita e espero que aproveitem o conteúdo deste projeto dedicado a "Rick and Morty".
 
-
 Atenciosamente,
-João Paulo Estevam Valdivino.
+João Paulo Estevam Valdivino
