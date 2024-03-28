@@ -1,0 +1,271 @@
+@font-face {
+    font-family: GothamLight;
+    src: url(./fonts/GothamRnd-Light.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "GothamLight", sans-serif;
+}
+
+/*Ajustes*/
+
+html {
+    background-color: #fff;
+}
+
+.container {
+    max-width: 200%;
+    margin: auto;
+    margin-left: 1%;
+}
+
+/*Cabeçalho*/
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: center;
+}
+
+.flex img{
+    width: 16vh;
+    justify-content: space-between;
+}
+nav a{
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #02b126;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    padding: 25px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+    z-index: 2;
+}
+
+header img {
+    font-size: 20px;
+    color: #000;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 22px;
+}
+header ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+/* IMG dentro do Banner */
+
+.img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    position: absolute;
+}
+
+.img img:first-child {
+    width: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-38%, -1100%);
+    z-index: 1;
+}
+
+.img img:last-child {
+    width: 30%;
+    transform: translate(6%, -340%);
+    z-index: 0;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(./img/inicio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: black 4px 4px 8px 0px;   
+}
+
+/*Botão de contato*/
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #02b126;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+/*Criadores e Page 2*/
+
+.interface {
+    height: 400vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section{
+    height: 100vh;
+    transition-duration: 2s;
+}
+
+section h1 {
+    margin: 30px;
+    align-items: center;
+}
+
+
+.portal {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 0;
+}
+
+.origem {
+    margin-top: 7%;
+}
+
+.origem .dois {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.origem .orghis {
+    flex: 1;
+    margin: 0 20px;
+    padding: 20px;
+    width: 500px;
+    text-align: justify;
+    z-index: 1;
+}
+
+.criadores {
+    margin-top: -25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+.criadores img {
+    margin-top: 1%;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.descricao {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+/* Pagina 3 e config */
+
+.imagemdefundo {
+    height: 75vh;
+    background-image: url(https://images7.alphacoders.com/133/1335145.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    box-shadow: black -2px 0px 13px 3px;
+}
+
+.melhoresep {
+    align-items: center;
+    margin: auto;
+    margin-top: -33%;
+    width: 350px;
+    height: 40px;
+    border: 0;
+    background-color: #02b126;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 50px;
+    background-color: #fff;
+    color: #000;
+    width: 320px;
+    height: 480px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card>h1 {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.card>h2 {
+    font-size: 10px;
+    padding-top: 10px 20px;
+    color: #202020;
+}
+.card button {
+    margin: 65px;
+    width: 130px;
+    height: 40px;
+    border: 0;
+    background-color: #02b126;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.card a {
+    text-decoration: none;
+    color: #fff;
+}
