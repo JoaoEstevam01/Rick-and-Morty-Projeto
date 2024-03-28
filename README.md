@@ -6,4 +6,4 @@ Agradeço a todos pela visita e espero que aproveitem o conteúdo deste projeto 
 
 
 Atenciosamente,
-João Paulo Estevam Valdivino
+João Paulo Estevam Valdivino.
