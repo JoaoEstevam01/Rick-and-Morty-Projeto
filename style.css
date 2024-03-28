@@ -14,6 +14,7 @@
 
 html {
     background-color: #fff;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -57,12 +58,13 @@ nav a:hover::after{
 header {
     background-color: #fff;
     width: 100%;
-    padding: 25px 4%;
+    padding: 10px 4%;
     position: fixed;
     top: 0;
     left: 0;
     transition: 1.5s;
     z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 header img {
@@ -136,9 +138,7 @@ header ul li a{
 /*Criadores e Page 2*/
 
 .interface {
-    height: 400vh;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+    height: 100vh;
 }
 
 section{
@@ -205,6 +205,7 @@ section h1 {
 /* Pagina 3 e config */
 
 .imagemdefundo {
+    margin-top: 5%;
     height: 75vh;
     background-image: url(https://images7.alphacoders.com/133/1335145.jpg);
     background-position: center;
@@ -226,6 +227,8 @@ section h1 {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+
+/* Card config*/
 
 .main {
     display: flex;
@@ -268,4 +271,32 @@ section h1 {
 .card a {
     text-decoration: none;
     color: #fff;
+}
+
+/*Page 4 */
+
+.cardplat {
+    display: flex;
+    justify-content: center;
+}
+
+.card.card6 button {
+    background-color: #0000CD;
+}
+
+.card.card7 button {
+    background-color: #6495ED;
+}
+
+.card.card8 button {
+    background-color: black;
+}
+
+/*Rodapé*/
+
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding: 30px;
+    background-color: #32cd32;
 }
